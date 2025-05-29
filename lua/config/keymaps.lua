@@ -12,7 +12,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move the highlighted line
 vim.keymap.set("n", "ge", "G", { noremap = true, silent = true })
 vim.keymap.set("n", "gh", "^", { noremap = true, silent = true })
 vim.keymap.set("n", "gl", "$", { noremap = true, silent = true })
-vim.keymap.set("n", "gs", "0", { noremap = true, silent = true })
 
 -- Helix style "x" thing
 vim.keymap.set("n", "x", "V", { noremap = true, silent = true })
